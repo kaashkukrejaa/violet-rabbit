@@ -1,0 +1,23 @@
+{
+  "name": "Fullstack Challenge Dev Container",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "vscjava.vscode-java-pack",
+        "vmware.vscode-spring-boot",
+        "vscjava.vscode-maven"
+      ],
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "bash"
+      }
+    }
+  },
+  "forwardPorts": [3000, 8080],
+  "postCreateCommand": "echo 'Dev container ready! Frontend: http://localhost:3000 | Backend: http://localhost:8080' && echo 'JAVA_HOME='$JAVA_HOME",
+  "remoteUser": "vscode"
+}
