@@ -84,6 +84,3 @@ fullstack-challenge/
 └── maplewood_school.sqlite
 ```
 
----
-
-**Questions?** Email: <DL-eBay-Data-Productization@ebay.com>
